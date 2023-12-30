@@ -1,9 +1,11 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
 body {
     margin: 0;
 }
+
 header {
     background-color: #1F2937;
     display: flex;
@@ -11,6 +13,7 @@ header {
     padding: 20px 130px 100px 200px;
     margin-top: 0;
 }
+
 .main {
     color: #f9faf8;
     font-size: 48px;
@@ -30,11 +33,14 @@ header {
     align-items: center;
 }
 
-li > a, li {
+.firstlist > li {
     list-style: none;
     font-size: 18px;
-    color: #E5E7EB;
+}
+
+a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 #signup {
@@ -44,6 +50,7 @@ li > a, li {
     width: 120px;
     border: none;
     border-radius: 10px;
+    color: #E5E7EB;
 }
 
 .secondary {
@@ -51,17 +58,21 @@ li > a, li {
     color: #E5E7EB;
 }
 
-ul {
+.firstlist {
     display: flex;
+    flex-direction: row;
     gap: 25px;
 }
+
 .head2 {
     padding-top: 100px;
 }
+
 .box {
     display: flex;
     flex-direction: column;
     width: 50%;
+    gap: 6px;
     
 }
 
@@ -74,4 +85,37 @@ ul {
     color: #E5E7EB;
     
 }
+ /* header completed */
 
+
+.secondpart {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+
+}
+
+.header3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.listsecondpart, .listsecondpart2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+}
+
+.emptysquare {
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    border: 3px;
+    border-color: #3882F6;
+}

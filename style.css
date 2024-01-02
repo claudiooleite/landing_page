@@ -207,3 +207,13 @@ a {
 }
 
 /* 4th part completed and styled */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f9faf8;
+    padding: 50px;
+}

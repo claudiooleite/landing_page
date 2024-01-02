@@ -172,3 +172,38 @@ a {
 }
 
 /* 3rd part completed and styled */
+
+.large.button {
+    display: flex;
+    background-color: #3882F6;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+    margin: 100px;
+    color: #f9faf8;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.call.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.call.left #callleftsmall {
+    font-weight: 100;
+    font-size: 18px;
+}
+ 
+.signupbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* 4th part completed and styled */
